@@ -42,6 +42,48 @@ console.log(typeof valueInNumber);
     // let num1 , num2, num3
     // num1 = num2 = num3 = 2+2;           // dont do this because it reduce code readiablity.
 
-    let gameCounter = 100;
-    gameCounter++;
-    console.log(gameCounter);
+    // let gameCounter = 100;
+    // gameCounter++;
+    // console.log(gameCounter);
+
+    // console.log(2>1);
+    // console.log(2<1);
+    // console.log(2>=1); 
+    // console.log(2<=1);
+    // console.log(2==1);
+    // console.log(2!=1);
+    // console.log(2==="2");
+    // console.log(2=="2");
+    // console.log(2!==1);
+    // console.log("02">1);
+
+    // console.log(null>0)
+    // console.log(null<0)
+    // console.log(null>=0)
+    // console.log(null<=0)
+    // console.log(null==0)
+
+    //    === => strict equality
+    
+ //********************************** Data type summray ****************************** */
+     // Symbole : 
+    const id = Symbol('123');
+    const anotherId = Symbol('123');
+    console.log(id===anotherId);
+    
+    const bigNumber = 4645965313116346456646n;
+    console.log(bigNumber);
+
+    const heroes  = ["Shaktiman", "Nagraj", "Doga"]
+    let myObj = {
+        name: "Arvind",
+        age:22,
+    }
+
+    const myFunction= function(){
+        console.log("Hello world");
+    }
+
+    console.log(typeof bigNumber);
+    console.log(typeof myFunction);
+    console.log(typeof heroes);
