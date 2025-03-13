@@ -1,2 +1,2 @@
-Arr[7]); // 
-// console.log(myArr[
+
+// console.log(typeof JsUser.mySym); // it should be sy
